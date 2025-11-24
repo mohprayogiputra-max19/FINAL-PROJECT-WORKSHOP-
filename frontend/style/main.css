@@ -1,3 +1,29 @@
 /* Nav Style */
+.navbar-custom {
+    background-color: #53332f !important;
+    padding: 10px 30px;
+}
+
+.navbar-custom #logo-tefa img{
+    width: 76px;
+}
+
+.navbar-custom #logo-polije img{
+    width: 76px;
+}
+
+.navbar-custom #logo-sip img{
+    width: 76px;
+}
+
+.navbar-custom .navbar-nav{
+    gap: 40px;
+}
+
+.navbar-custom .navbar-link{
+    color: #ffff !important;
+    font-size: 1rem;
+}
+
 
 /* Footer Style */
