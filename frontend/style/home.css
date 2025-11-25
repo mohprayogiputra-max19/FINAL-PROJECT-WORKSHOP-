@@ -42,3 +42,56 @@
 .navbar-menu li a:hover {
   opacity: 0.7;
 }
+
+.footer {
+  background-color: #5d3c38;
+  padding: 40px 0 30px 0;
+  margin-top: 40px;
+  color: #f2e9e4;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Kolom footer */
+.footer-col {
+  width: 23%;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Gambar / maps */
+.footer-map {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Garis bawah */
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #c7b9b5;
+  margin-top: 40px;
+}
+
+/* Copyright */
+.footer-copy {
+  text-align: center;
+  font-size: 13px;
+  color: #f0e7e6;
+  margin-top: 15px;
+}
