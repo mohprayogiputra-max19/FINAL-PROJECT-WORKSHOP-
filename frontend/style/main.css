@@ -1,4 +1,101 @@
 /* Nav Style */
+/* NAVBAR WRAPPER */
+.navbar {
+  width: 100%;
+  background-color: #53332f; 
+  padding: 25px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO SECTION */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-item {
+  width: 76px;
+  height: 76px;
+  object-fit: contain; 
+}
+
+/* MENU */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.navbar-menu li a:hover {
+  opacity: 0.7;
+}
+
+/* Footer Syyle */
+/* FOOTER WRAPPER */
+.footer {
+    background-color: #5e3f39;   /* warna coklat tua */
+    color: #f5e9da;              /* warna tulisan */
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* GRID */
+.footer-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* SETIAP KOLOM */
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 4px 0;
+}
+
+/* MAP IMAGE */
+.map-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* GARIS PEMBATAS */
+.footer-line {
+    width: 90%;
+    margin: 40px auto 20px;
+    border: 0.5px solid #c5b3a9;
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 20px;
+    color: #f5e9da;
+}
 .navbar-custom {
     background-color: #53332f !important;
     padding: 10px 30px;
@@ -27,3 +124,54 @@
 
 
 /* Footer Style */
+/* FOOTER WRAPPER */
+.footer {
+    background-color: #5e3f39;   /* warna coklat tua */
+    color: #f5e9da;              /* warna tulisan */
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* GRID */
+.footer-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* SETIAP KOLOM */
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 4px 0;
+}
+
+/* MAP IMAGE */
+.map-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* GARIS PEMBATAS */
+.footer-line {
+    width: 90%;
+    margin: 40px auto 20px;
+    border: 0.5px solid #c5b3a9;
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 20px;
+    color: #f5e9da;
+}
